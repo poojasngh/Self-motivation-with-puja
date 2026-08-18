@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How To Motivate Yourself</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background: linear-gradient(135deg,#6a11cb,#2575fc);
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:50px 20px;
+}
+
+h1{
+    font-size:48px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.15);
+    margin:20px;
+    padding:25px;
+    border-radius:15px;
+}
+
+button{
+    background:white;
+    color:#2575fc;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#f0f0f0;
+}
+
+#quote{
+    margin-top:20px;
+    font-size:22px;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>✨ Motivate Yourself ✨</h1>
+    <p>Believe in yourself. Every day is a new opportunity.</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>1. Set Small Goals</h2>
+        <p>Break big dreams into small achievable tasks.</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Stay Positive</h2>
+        <p>Focus on progress, not perfection.</p>
+    </div>
+
+    <div class="card">
+        <h2>3. Keep Learning</h2>
+        <p>Every new skill brings you closer to success.</p>
+    </div>
+
+    <div class="card">
+        <h2>Self Motivation with Puja</h2>
+        <button onclick="showQuote()">Welcome to Motivation With Puja</button>
+        <p id="quote"></p>
+    </div>
+
+</div>
+
+<script>
+function showQuote(){
+    const quotes = [
+        "Success starts with self-belief.",
+        "Your only limit is your mind.",
+        "Small steps every day lead to big results.",
+        "Dream big, work hard, stay focused.",
+        "Don't quit. Your future self will thank you."
+    ];
+
+    let randomQuote = quotes[Math.floor(Math.random()*quotes.length)];
+    document.getElementById("quote").innerHTML = randomQuote;
+}
+</script>
+
+</body>
+</html>
