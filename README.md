@@ -1,2 +1,3 @@
 # Self-motivation-with-puja
-This is motivational page where I will guide people how to self motivate, with daily life  challenges.
+A personal motivation and self-growth website sharing inspirational thought, life lessons, positivity, and motivation.
+I will guide people how to self motivate. 
